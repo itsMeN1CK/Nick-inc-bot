@@ -1,2 +1,5 @@
 # Nick-inc-bot
-Diiscord bot
+Discord bot
+
+do nothing,
+just go to heroku and host
