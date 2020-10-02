@@ -130,7 +130,7 @@ client.on('message', message => {
          */
         member
           .ban({
-            reason: 'They were bad!',
+            reason: 'They were bad! D:',
           })
           .then(() => {
             // We let the message author know we were able to ban the person
@@ -140,17 +140,17 @@ client.on('message', message => {
             // An error happened
             // This is generally due to the bot not being able to ban the member,
             // either due to missing permissions or role hierarchy
-            message.reply('I was unable to ban the member');
+            message.reply('I was unable to ban the member, aha u dont either u dont have perms or dont have em');
             // Log the error
             console.error(err);
           });
       } else {
         // The mentioned user isn't in this guild
-        message.reply("That user isn't in this guild!");
+        message.reply("That user isn't in this guild! lmao he alr left or got kicked");
       }
     } else {
       // Otherwise, if no user was mentioned
-      message.reply("You didn't mention the user to ban!");
+      message.reply("You didn't mention the user to ban!, you are so dumb :D");
     }
   }
 });
