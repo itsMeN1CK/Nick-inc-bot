@@ -102,6 +102,9 @@ client.on('message', message => {
 });
 
 
+client.on('ready', () => {
+  console.log('I am ready!');
+});
 
 client.on('message', message => {
   // Ignore messages that aren't from a guild
