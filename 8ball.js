@@ -10,7 +10,7 @@ const {MessageEmbeds} = require={
   category: "fun",
   usage: "<question>",
   run: async(bot,Message,args)=>{
- let question= messageC
+ let question = message.content.split('-8ball').join('')
 
   }
 
