@@ -86,7 +86,7 @@ client.on('message', message => {
           })
           .catch(err => {
           
-            message.reply('I was unable to kick the member');
+            message.reply('I was unable to kick the member hmm idk why');
           
             console.error(err);
           });
