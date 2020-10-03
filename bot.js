@@ -20,7 +20,7 @@ client.on('message', msg => {
     },
     title: "Commands",
     url: "https://nick-inc.glitch.me",
-    description: "`-help Commands`",
+    description: " Commands`",
     fields: [{
         name: "Level commands",
         value: "Not in service ,Coming soon ;(",
@@ -47,11 +47,7 @@ client.on('message', msg => {
         inline: false,
       },
       {
-    timestamp: new Date(),
-    footer: {
-      icon_url: client.user.avatarURL,
-      text: "Made by `_N1CK#0001"
-    }
+   
       }]
       
     
@@ -169,4 +165,4 @@ client.on('message', message => {
 });
 
 
-client.login('NzYxMjQyNDk2MjgxMDgzOTE1.X3XwUg.i2oxarUVZlqUqTnAtvbaua214qs');
+client.login(config.token);
